@@ -1,16 +1,39 @@
-# React + Vite
+# 📖 Recipe Book
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ứng dụng web dùng **React + Vite** để quản lý công thức nấu ăn.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Cách chạy dự án
 
-## React Compiler
+### 1. Clone repo
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/HoangThiAnhNguyet/recipe-book.git
+cd recipe-book
+``` 
 
-## Expanding the ESLint configuration
+### 2. Cài đặt dependencies
+```
+Nếu dùng npm:
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hoặc với yarn:
+yarn install
+
+Hoặc với pnpm:
+pnpm install
+```
+### 3. Cài đặt thêm (nếu thiếu)
+Nếu gặp lỗi liên quan tới lucide-react hoặc tailwindcss, hãy chạy:
+```
+npm install lucide-react
+npm install -D tailwindcss postcss autoprefixer
+```
+### 4. Chạy ứng dụng
+Dev mode
+```
+npm run dev
+```
+Ứng dụng sẽ chạy tại:
+👉 http://localhost:5173
